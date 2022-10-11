@@ -23,7 +23,7 @@ router.get('/services', function(req, res, next) {
 });
 /* GET Contact US page. */
 router.get('/contact', function(req, res, next) {
-  res.render('Contact', { title: 'Contact' });
+  res.render('contact', { title: 'Contact' });
 });
 
 module.exports = router;
